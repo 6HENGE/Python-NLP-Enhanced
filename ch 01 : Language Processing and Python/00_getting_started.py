@@ -1,4 +1,6 @@
 """ @SerayBeser
 
 Natural Language Processing with Python
-# http:/
+# http://www.nltk.org/book/ch01.html
+
+Pyth
