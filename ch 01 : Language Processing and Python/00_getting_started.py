@@ -10,4 +10,7 @@ Python ile Dogal Dil Isleme
 # Installing NLTK
 # NLTK 'nin Kurulmasi
 # import nltk
-# nltk.down
+# nltk.download()
+
+# Load some items(books)
+#
