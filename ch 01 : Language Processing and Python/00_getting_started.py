@@ -7,4 +7,6 @@ Python ile Dogal Dil Isleme
 
 """
 
-# Installi
+# Installing NLTK
+# NLTK 'nin Kurulmasi
+# 
