@@ -13,4 +13,6 @@ Python ile Dogal Dil Isleme
 # nltk.download()
 
 # Load some items(books)
-#
+# Kitaplari Indirelim.
+
+from nltk.book i
