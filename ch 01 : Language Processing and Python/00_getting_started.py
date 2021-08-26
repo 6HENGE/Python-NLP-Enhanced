@@ -15,4 +15,7 @@ Python ile Dogal Dil Isleme
 # Load some items(books)
 # Kitaplari Indirelim.
 
-from nltk.book i
+from nltk.book import *
+
+"""
+*** Introductory 
