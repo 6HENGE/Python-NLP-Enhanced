@@ -18,4 +18,5 @@ Python ile Dogal Dil Isleme
 from nltk.book import *
 
 """
-*** Introductory 
+*** Introductory Examples for the NLTK Book ***
+Load
