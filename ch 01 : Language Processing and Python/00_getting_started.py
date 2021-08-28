@@ -19,4 +19,4 @@ from nltk.book import *
 
 """
 *** Introductory Examples for the NLTK Book ***
-Load
+Loading text1, ..., text9 and sent1, ..., se
