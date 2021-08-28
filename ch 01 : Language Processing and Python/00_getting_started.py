@@ -20,4 +20,5 @@ from nltk.book import *
 """
 *** Introductory Examples for the NLTK Book ***
 Loading text1, ..., text9 and sent1, ..., sent9
-Type the name of the text 
+Type the name of the text or sentence to view it.
+Type: 'texts
