@@ -22,4 +22,5 @@ from nltk.book import *
 Loading text1, ..., text9 and sent1, ..., sent9
 Type the name of the text or sentence to view it.
 Type: 'texts()' or 'sents()' to list the materials.
-text1: Moby Dick by H
+text1: Moby Dick by Herman Melville 1851
+text2: Sense a
