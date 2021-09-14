@@ -26,4 +26,5 @@ text1: Moby Dick by Herman Melville 1851
 text2: Sense and Sensibility by Jane Austen 1811
 text3: The Book of Genesis
 text4: Inaugural Address Corpus
-text5: Chat Corpu
+text5: Chat Corpus
+text6: Monty Python and the Holy Grail
