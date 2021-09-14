@@ -25,4 +25,5 @@ Type: 'texts()' or 'sents()' to list the materials.
 text1: Moby Dick by Herman Melville 1851
 text2: Sense and Sensibility by Jane Austen 1811
 text3: The Book of Genesis
-text4: Inaug
+text4: Inaugural Address Corpus
+text5: Chat Corpu
