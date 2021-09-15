@@ -28,3 +28,5 @@ text3: The Book of Genesis
 text4: Inaugural Address Corpus
 text5: Chat Corpus
 text6: Monty Python and the Holy Grail
+text7: Wall Street Journal
+text8: Personal
