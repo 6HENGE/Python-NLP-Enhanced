@@ -29,4 +29,5 @@ text4: Inaugural Address Corpus
 text5: Chat Corpus
 text6: Monty Python and the Holy Grail
 text7: Wall Street Journal
-text8: Personal
+text8: Personals Corpus
+text9: The Man Who Was Thursday 
