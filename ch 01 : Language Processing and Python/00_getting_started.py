@@ -35,4 +35,5 @@ text9: The Man Who Was Thursday by G . K . Chesterton 1908
 
 print text2
 
-# Now, we ar
+# Now, we are ready to get started.
+# Elimizde
