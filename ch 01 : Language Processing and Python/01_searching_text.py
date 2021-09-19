@@ -46,3 +46,5 @@ print text2.common_contexts(['monstrous', 'very'])
 # Produce a plot showing the distribution of the words through the text. Requires pylab to be installed.
 
 # Kelimelerin metin boyunca dagilimini gosteren bir grafik olusturur.
+text2.dispersion_plot(['love', 'affect', 'sense', 'honour'])
+
