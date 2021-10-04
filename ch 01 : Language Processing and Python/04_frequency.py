@@ -7,4 +7,5 @@ Python ile Dogal Dil Isleme
 
 """
 
-# load
+# load our data (texts)
+# verilerimizi ice
