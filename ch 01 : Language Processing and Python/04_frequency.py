@@ -8,4 +8,5 @@ Python ile Dogal Dil Isleme
 """
 
 # load our data (texts)
-# verilerimizi ice
+# verilerimizi ice aktaralim
+# we use tex
