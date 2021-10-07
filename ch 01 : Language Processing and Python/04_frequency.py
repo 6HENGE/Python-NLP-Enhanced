@@ -9,4 +9,6 @@ Python ile Dogal Dil Isleme
 
 # load our data (texts)
 # verilerimizi ice aktaralim
-# we use tex
+# we use text2.
+# text2'yi kullanacagiz.
+# a frequ
