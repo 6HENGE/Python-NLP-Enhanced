@@ -11,4 +11,4 @@ Python ile Dogal Dil Isleme
 # verilerimizi ice aktaralim
 # we use text2.
 # text2'yi kullanacagiz.
-# a frequ
+# a frequency distribution could be used to rec
