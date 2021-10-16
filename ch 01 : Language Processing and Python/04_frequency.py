@@ -11,4 +11,4 @@ Python ile Dogal Dil Isleme
 # verilerimizi ice aktaralim
 # we use text2.
 # text2'yi kullanacagiz.
-# a frequency distribution could be used to rec
+# a frequency distribution could be used to record the frequency of each word type in
