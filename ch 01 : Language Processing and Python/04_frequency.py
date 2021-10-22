@@ -14,4 +14,7 @@ Python ile Dogal Dil Isleme
 # a frequency distribution could be used to record the frequency of each word type in a document.
 # frekans dagilimi, bir belgedeki her bir kelime turunun sikligini kaydetmek icin kullanilabilir.
 
-from nltk.book import text
+from nltk.book import text2
+from nltk import FreqDist
+
+# Let'
