@@ -17,4 +17,4 @@ Python ile Dogal Dil Isleme
 from nltk.book import text2
 from nltk import FreqDist
 
-# Let'
+# Let's use a FreqDist to find the 30 mos
