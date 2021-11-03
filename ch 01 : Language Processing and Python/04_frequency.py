@@ -18,4 +18,5 @@ from nltk.book import text2
 from nltk import FreqDist
 
 # Let's use a FreqDist to find the 30 most frequent words of text2 --> Sense and Sensibility by Jane Austen 1811
-frequency_distribution = 
+frequency_distribution = FreqDist(text2)
+vocabulary = freq
