@@ -22,4 +22,4 @@ frequency_distribution = FreqDist(text2)
 vocabulary = frequency_distribution.most_common(30)
 
 print "-" * 100
-print "Most C
+print "Most Common 30 tokens:", vo
