@@ -21,4 +21,5 @@ from nltk import FreqDist
 frequency_distribution = FreqDist(text2)
 vocabulary = frequency_distribution.most_common(30)
 
-prin
+print "-" * 100
+print "Most C
