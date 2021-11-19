@@ -28,4 +28,4 @@ print "-" * 100
 print "Frequency Distribution word='love' : ", frequency_distribution['love']
 print "Frequency Distribution word='hate' : ", frequency_distribution['hate']
 print "Frequency Distribution word='sense' : ", frequency_distribution['sense']
-print "Frequency Di
+print "Frequency Distribution word='apathy' : 
