@@ -30,4 +30,4 @@ print "Frequency Distribution word='hate' : ", frequency_distribution['hate']
 print "Frequency Distribution word='sense' : ", frequency_distribution['sense']
 print "Frequency Distribution word='apathy' : ", frequency_distribution['apathy']
 
-# Plot samples from the freq
+# Plot samples from the frequency distribution displaying the
