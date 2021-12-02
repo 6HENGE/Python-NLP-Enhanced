@@ -31,4 +31,4 @@ print "Frequency Distribution word='sense' : ", frequency_distribution['sense']
 print "Frequency Distribution word='apathy' : ", frequency_distribution['apathy']
 
 # Plot samples from the frequency distribution displaying the most frequent sample first.
-# Onc
+# Once en sik kullanilan ornegi gosteren frekans
