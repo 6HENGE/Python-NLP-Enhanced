@@ -32,4 +32,6 @@ print "Frequency Distribution word='apathy' : ", frequency_distribution['apathy'
 
 # Plot samples from the frequency distribution displaying the most frequent sample first.
 # Once en sik kullanilan ornegi gosteren frekans dagilimindan ornekler cizer.
-# frequency_distribution.
+# frequency_distribution.plot(30, cumulative=True)
+
+# Lon
