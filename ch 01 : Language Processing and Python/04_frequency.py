@@ -34,4 +34,6 @@ print "Frequency Distribution word='apathy' : ", frequency_distribution['apathy'
 # Once en sik kullanilan ornegi gosteren frekans dagilimindan ornekler cizer.
 # frequency_distribution.plot(30, cumulative=True)
 
-# Lon
+# Long words
+# Uzun kelimeler
+al
