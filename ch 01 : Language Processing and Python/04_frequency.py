@@ -36,4 +36,5 @@ print "Frequency Distribution word='apathy' : ", frequency_distribution['apathy'
 
 # Long words
 # Uzun kelimeler
-al
+all_tokens = set(text2)
+long_words =
