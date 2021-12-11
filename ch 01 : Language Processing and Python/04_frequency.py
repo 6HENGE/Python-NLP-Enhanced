@@ -39,4 +39,6 @@ print "Frequency Distribution word='apathy' : ", frequency_distribution['apathy'
 all_tokens = set(text2)
 long_words = [token for token in all_tokens if len(token) > 15]
 print "-" * 100
-print "Long Words :", sorted(long_wor
+print "Long Words :", sorted(long_words)
+
+print "-" * 100
