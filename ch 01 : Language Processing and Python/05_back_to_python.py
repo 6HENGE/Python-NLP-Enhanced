@@ -1,3 +1,4 @@
 """ @SerayBeser
 
-Natural Language Process
+Natural Language Processing with Python
+# http://www.nltk.org/book/
