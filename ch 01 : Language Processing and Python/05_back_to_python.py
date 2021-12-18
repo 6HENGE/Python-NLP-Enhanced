@@ -6,4 +6,5 @@ Natural Language Processing with Python
 Python ile Dogal Dil Isleme
 
 """
-# Birkac cumle olus
+# Birkac cumle olusturalim.
+# let's create some senten
