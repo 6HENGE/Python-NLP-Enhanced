@@ -9,4 +9,4 @@ Python ile Dogal Dil Isleme
 # Birkac cumle olusturalim.
 # let's create some sentences.
 
-sentence_1 = ['I', 'can', 'not', 'believe', '
+sentence_1 = ['I', 'can', 'not', 'believe', 'how', 'hot', 'it', 'is', 'today
