@@ -10,4 +10,6 @@ Python ile Dogal Dil Isleme
 # let's create some sentences.
 
 sentence_1 = ['I', 'can', 'not', 'believe', 'how', 'hot', 'it', 'is', 'today', '.']
-sentence_2 = ['I', 'like', 'going ', 'out ', 'to', 'parties
+sentence_2 = ['I', 'like', 'going ', 'out ', 'to', 'parties ', 'with ', 'friends', '.']
+
+print "l
