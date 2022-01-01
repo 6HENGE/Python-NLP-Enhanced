@@ -12,4 +12,4 @@ Python ile Dogal Dil Isleme
 sentence_1 = ['I', 'can', 'not', 'believe', 'how', 'hot', 'it', 'is', 'today', '.']
 sentence_2 = ['I', 'like', 'going ', 'out ', 'to', 'parties ', 'with ', 'friends', '.']
 
-print "l
+print "len(word) < 5  :   ", [w for w 
