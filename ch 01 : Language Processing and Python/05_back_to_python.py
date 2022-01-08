@@ -14,4 +14,5 @@ sentence_2 = ['I', 'like', 'going ', 'out ', 'to', 'parties ', 'with ', 'friends
 
 print "len(word) < 5  :   ", [w for w in sentence_1 if len(w) < 5]
 print "len(word) <= 5 :   ", [w for w in sentence_1 if len(w) <= 5]
-print "len(word) == 5 :   ", [w for w in sentence_1 
+print "len(word) == 5 :   ", [w for w in sentence_1 if len(w) == 5]
+print "len(word) != 5 :
