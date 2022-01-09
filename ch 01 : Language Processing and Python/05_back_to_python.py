@@ -17,4 +17,5 @@ print "len(word) <= 5 :   ", [w for w in sentence_1 if len(w) <= 5]
 print "len(word) == 5 :   ", [w for w in sentence_1 if len(w) == 5]
 print "len(word) != 5 :   ", [w for w in sentence_1 if len(w) != 5]
 print "-" * 100
-print "startswith ('i')  :   ", sorted([w for w in sentence_1 if w.startswith('i')]
+print "startswith ('i')  :   ", sorted([w for w in sentence_1 if w.startswith('i')])
+print "endswith ('ieve') :  
