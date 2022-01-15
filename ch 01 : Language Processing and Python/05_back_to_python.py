@@ -20,4 +20,4 @@ print "-" * 100
 print "startswith ('i')  :   ", sorted([w for w in sentence_1 if w.startswith('i')])
 print "endswith ('ieve') :   ", sorted([w for w in sentence_1 if w.endswith('ieve')])
 print "in ('ot')         :   ", sorted([w for w in set(sentence_1) if 'ot' in w])
-print "islower()         :   ", sorted(
+print "islower()         :   ", sorted([item for item in set(sentence
