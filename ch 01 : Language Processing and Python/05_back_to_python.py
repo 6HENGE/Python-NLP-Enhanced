@@ -19,4 +19,5 @@ print "len(word) != 5 :   ", [w for w in sentence_1 if len(w) != 5]
 print "-" * 100
 print "startswith ('i')  :   ", sorted([w for w in sentence_1 if w.startswith('i')])
 print "endswith ('ieve') :   ", sorted([w for w in sentence_1 if w.endswith('ieve')])
-print "in ('ot')         :   ", sorted([w for w in set(sentence_1) if 'ot' in
+print "in ('ot')         :   ", sorted([w for w in set(sentence_1) if 'ot' in w])
+print "islower()         :   ", sorted(
