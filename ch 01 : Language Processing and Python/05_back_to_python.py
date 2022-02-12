@@ -23,4 +23,5 @@ print "in ('ot')         :   ", sorted([w for w in set(sentence_1) if 'ot' in w]
 print "islower()         :   ", sorted([item for item in set(sentence_1) if item.islower()])
 print "isupper()         :   ", sorted([item for item in set(sentence_1) if item.isupper()])
 print "-" * 100
-print "len sentence 1: ",
+print "len sentence 1: ", [len(w) for w in sentence_1]
+print "
