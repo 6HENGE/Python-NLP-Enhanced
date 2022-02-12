@@ -24,4 +24,4 @@ print "islower()         :   ", sorted([item for item in set(sentence_1) if item
 print "isupper()         :   ", sorted([item for item in set(sentence_1) if item.isupper()])
 print "-" * 100
 print "len sentence 1: ", [len(w) for w in sentence_1]
-print "
+print "len sentence 2: ", [len(w) for w in 
