@@ -26,4 +26,5 @@ print "-" * 100
 print "len sentence 1: ", [len(w) for w in sentence_1]
 print "len sentence 2: ", [len(w) for w in sentence_2]
 print "-" * 100
-print "upper :", [w.upper() for
+print "upper :", [w.upper() for w in sentence_2]
+print "-" * 
