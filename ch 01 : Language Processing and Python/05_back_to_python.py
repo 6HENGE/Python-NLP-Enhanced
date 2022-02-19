@@ -28,4 +28,6 @@ print "len sentence 2: ", [len(w) for w in sentence_2]
 print "-" * 100
 print "upper :", [w.upper() for w in sentence_2]
 print "-" * 100
-sentences = [sentence_1, sente
+sentences = [sentence_1, sentence_2]
+for sentence in sentences:
+    for 
