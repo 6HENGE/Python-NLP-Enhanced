@@ -30,4 +30,5 @@ print "upper :", [w.upper() for w in sentence_2]
 print "-" * 100
 sentences = [sentence_1, sentence_2]
 for sentence in sentences:
-    for 
+    for token in sentence:
+        if toke
