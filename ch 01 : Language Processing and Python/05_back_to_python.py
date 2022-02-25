@@ -31,4 +31,5 @@ print "-" * 100
 sentences = [sentence_1, sentence_2]
 for sentence in sentences:
     for token in sentence:
-        if toke
+        if token.islower():
+            print token, '--> is 
