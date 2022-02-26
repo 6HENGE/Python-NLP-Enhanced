@@ -32,4 +32,5 @@ sentences = [sentence_1, sentence_2]
 for sentence in sentences:
     for token in sentence:
         if token.islower():
-            print token, '--> is 
+            print token, '--> is a lowercase word'
+        elif token.istitl
