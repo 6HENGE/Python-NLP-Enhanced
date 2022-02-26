@@ -33,4 +33,5 @@ for sentence in sentences:
     for token in sentence:
         if token.islower():
             print token, '--> is a lowercase word'
-        elif token.istitl
+        elif token.istitle():
+            print token
