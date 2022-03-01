@@ -36,4 +36,4 @@ for sentence in sentences:
         elif token.istitle():
             print token, '--> is a titlecase word'
         else:
-            print token, '--> is 
+            print token, '--> is punctuation'
