@@ -38,3 +38,13 @@ time (Inaugural Address Corpus).
 5- Inaugural Address Corpus
 6- Annotated Text Corpora
 """
+
+from nltk.corpus import gutenberg, webtext, brown, reuters, inaugural
+
+print "Gutenberg FileIds   :", gutenberg.fileids()
+print "Webtext FileIds     :", webtext.fileids()
+print "Brown FileIds       :", brown.fileids()
+print "Brown Categories    :", brown.categories()
+print "Reuters FileIds     :", reuters.fileids()
+print "Reuters Categories  :", reuters.categories()
+print "Inaugural FileIds   :", inaugural.fileids()
