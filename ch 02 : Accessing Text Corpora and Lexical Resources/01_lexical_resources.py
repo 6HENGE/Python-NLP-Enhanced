@@ -7,3 +7,5 @@ Python ile Dogal Dil Isleme
 
 """
 
+"""
+A lexicon, or lexical resourc
