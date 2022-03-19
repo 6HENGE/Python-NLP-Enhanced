@@ -9,4 +9,4 @@ Python ile Dogal Dil Isleme
 
 """
 A lexicon, or lexical resource, is a collection of words and/or phrases along with associated
-information, suc
+information, such as part-of-speech and sense definitio
