@@ -19,3 +19,4 @@ import nltk
 
 
 def unusual_words(text):
+    text_vocab = set(w.lower() for w
