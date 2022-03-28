@@ -20,4 +20,4 @@ import nltk
 
 def unusual_words(text):
     text_vocab = set(w.lower() for w in text if w.isalpha())
-    english_v
+    english_vocab = set(w.lower() for w
