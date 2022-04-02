@@ -25,4 +25,5 @@ def unusual_words(text):
     return sorted(unusual)
 
 
-def content_f
+def content_fraction(text):
+    stopwords = nlt
