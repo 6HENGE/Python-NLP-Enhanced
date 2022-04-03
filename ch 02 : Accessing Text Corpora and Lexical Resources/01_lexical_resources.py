@@ -26,4 +26,5 @@ def unusual_words(text):
 
 
 def content_fraction(text):
-    stopwords = nltk.corpus.stopwords.words('e
+    stopwords = nltk.corpus.stopwords.words('english')
+    content = [w for 
