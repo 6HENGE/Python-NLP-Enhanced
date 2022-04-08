@@ -28,4 +28,7 @@ def unusual_words(text):
 def content_fraction(text):
     stopwords = nltk.corpus.stopwords.words('english')
     content = [w for w in text if w.lower() not in stopwords]
-    return float(len(cont
+    return float(len(content)) / float(len(text))
+
+
+# kullanilmaya
