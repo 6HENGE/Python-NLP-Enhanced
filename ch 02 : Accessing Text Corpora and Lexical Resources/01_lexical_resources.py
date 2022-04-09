@@ -31,4 +31,5 @@ def content_fraction(text):
     return float(len(content)) / float(len(text))
 
 
-# kullanilmaya
+# kullanilmayan sozcukler
+print "Unusual Words    :"
