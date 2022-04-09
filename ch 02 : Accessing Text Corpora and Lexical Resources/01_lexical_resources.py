@@ -32,4 +32,4 @@ def content_fraction(text):
 
 
 # kullanilmayan sozcukler
-print "Unusual Words    :"
+print "Unusual Words    :", unusual_words(nltk.corpus.inaugural.wor
