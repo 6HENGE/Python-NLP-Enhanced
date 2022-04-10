@@ -33,4 +33,5 @@ def content_fraction(text):
 
 # kullanilmayan sozcukler
 print "Unusual Words    :", unusual_words(nltk.corpus.inaugural.words('1789-Washington.txt'))
-print "-" 
+print "-" * 100
+# stopwordsler ( a, an, the, 
