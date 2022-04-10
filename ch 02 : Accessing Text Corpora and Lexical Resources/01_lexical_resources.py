@@ -36,4 +36,5 @@ print "Unusual Words    :", unusual_words(nltk.corpus.inaugural.words('1789-Wash
 print "-" * 100
 # stopwordsler ( a, an, the, my, you, ...)
 print "Stopwords        :", nltk.corpus.stopwords.words('english')
-print "-" * 10
+print "-" * 100
+# stopwordler textten cikartildiginda geriye kala
