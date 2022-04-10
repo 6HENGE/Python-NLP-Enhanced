@@ -35,4 +35,4 @@ def content_fraction(text):
 print "Unusual Words    :", unusual_words(nltk.corpus.inaugural.words('1789-Washington.txt'))
 print "-" * 100
 # stopwordsler ( a, an, the, my, you, ...)
-print "Stopwords   
+print "Stopwords        :", nltk.corpus.stopwords.wor
