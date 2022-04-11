@@ -37,4 +37,4 @@ print "-" * 100
 # stopwordsler ( a, an, the, my, you, ...)
 print "Stopwords        :", nltk.corpus.stopwords.words('english')
 print "-" * 100
-# stopwordler textten cikartildiginda geriye kala
+# stopwordler textten cikartildiginda geriye kalan kelimeler text'in kacta kacini ol
