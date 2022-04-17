@@ -38,4 +38,4 @@ print "-" * 100
 print "Stopwords        :", nltk.corpus.stopwords.words('english')
 print "-" * 100
 # stopwordler textten cikartildiginda geriye kalan kelimeler text'in kacta kacini olusturuyor
-# print "Content Fra
+# print "Content Fraction :", content_fracti
