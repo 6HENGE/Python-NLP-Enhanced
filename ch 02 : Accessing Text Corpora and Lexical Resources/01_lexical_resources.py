@@ -42,4 +42,4 @@ print "-" * 100
 
 """
 A Word Puzzle: a grid of randomly chosen letters with rules for creating words
-ou
+out of the letters; this puzzle is 
