@@ -41,4 +41,5 @@ print "-" * 100
 # print "Content Fraction :", content_fraction(nltk.corpus.reuters.words())
 
 """
-A Word Puzzle: a grid of randomly chose
+A Word Puzzle: a grid of randomly chosen letters with rules for creating words
+ou
