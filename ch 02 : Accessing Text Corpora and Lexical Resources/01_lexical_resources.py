@@ -44,4 +44,5 @@ print "-" * 100
 A Word Puzzle: a grid of randomly chosen letters with rules for creating words
 out of the letters; this puzzle is known as "Target."
 
-Bir Kelime Bulmacasi: harflerden kelimeleri olusturmak icin kurallarla rastgele se
+Bir Kelime Bulmacasi: harflerden kelimeleri olusturmak icin kurallarla rastgele secilen harflerden
+olusan bir tablo; bu bulm
