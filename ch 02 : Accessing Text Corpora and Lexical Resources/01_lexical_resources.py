@@ -47,4 +47,6 @@ out of the letters; this puzzle is known as "Target."
 Bir Kelime Bulmacasi: harflerden kelimeleri olusturmak icin kurallarla rastgele secilen harflerden
 olusan bir tablo; bu bulmaca "Hedef" olarak bilinir.
 
-"
+"""
+
+puzzle_letters = nltk.FreqDist('se
