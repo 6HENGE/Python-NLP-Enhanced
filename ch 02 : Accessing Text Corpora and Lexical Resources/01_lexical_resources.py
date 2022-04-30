@@ -49,4 +49,6 @@ olusan bir tablo; bu bulmaca "Hedef" olarak bilinir.
 
 """
 
-puzzle_letters = nltk.FreqDist('se
+puzzle_letters = nltk.FreqDist('seraybhn')
+obligatory = 'r'
+wordlist = nl
