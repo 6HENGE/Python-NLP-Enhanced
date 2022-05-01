@@ -52,4 +52,5 @@ olusan bir tablo; bu bulmaca "Hedef" olarak bilinir.
 puzzle_letters = nltk.FreqDist('seraybhn')
 obligatory = 'r'
 wordlist = nltk.corpus.words.words()
-print [
+print [w for w in wordlist if len(w) >= 6
+    
