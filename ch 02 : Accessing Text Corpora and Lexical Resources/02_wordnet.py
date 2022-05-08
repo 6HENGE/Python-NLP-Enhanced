@@ -1,3 +1,3 @@
 from nltk.corpus import wordnet as wn
 
-print "Syno
+print "Synonyms (dog)         : ", wn.sy
