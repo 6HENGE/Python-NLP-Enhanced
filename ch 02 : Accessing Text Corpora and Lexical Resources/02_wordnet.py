@@ -7,4 +7,4 @@ print "Lemma Examples (dog)   : ", wn.synset('dog.n.01').examples()
 
 dog = wn.synset('dog.n.01')
 types_of_dog = dog.hyponyms()
-print "Types of Dog         
+print "Types of Dog           : ", sorted(lemma.name() for sy
