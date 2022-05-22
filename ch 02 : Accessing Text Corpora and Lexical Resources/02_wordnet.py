@@ -9,4 +9,5 @@ dog = wn.synset('dog.n.01')
 types_of_dog = dog.hyponyms()
 print "Types of Dog           : ", sorted(lemma.name() for synset in types_of_dog for lemma in synset.lemmas())
 
-hypers 
+hypers = dog.hypernyms()
+print "Hypernyms (dog
