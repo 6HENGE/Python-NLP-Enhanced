@@ -13,4 +13,4 @@ hypers = dog.hypernyms()
 print "Hypernyms (dog)        : ", hypers
 print "Root Hypernym (dog)    : ", dog.root_hypernyms()
 
-print "Part Meron
+print "Part Meronyms (dog)    : ", wn.s
