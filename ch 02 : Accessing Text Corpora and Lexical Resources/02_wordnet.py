@@ -11,4 +11,6 @@ print "Types of Dog           : ", sorted(lemma.name() for synset in types_of_do
 
 hypers = dog.hypernyms()
 print "Hypernyms (dog)        : ", hypers
-print "Root Hypernym (dog)    : ", d
+print "Root Hypernym (dog)    : ", dog.root_hypernyms()
+
+print "Part Meron
