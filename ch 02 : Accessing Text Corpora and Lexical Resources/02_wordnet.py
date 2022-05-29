@@ -13,4 +13,4 @@ hypers = dog.hypernyms()
 print "Hypernyms (dog)        : ", hypers
 print "Root Hypernym (dog)    : ", dog.root_hypernyms()
 
-print "Part Meronyms (dog)    : ", wn.s
+print "Part Meronyms (dog)    : ", wn.synset('animal.n.01').part_meronyms(
