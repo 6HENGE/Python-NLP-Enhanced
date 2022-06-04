@@ -17,4 +17,4 @@ print "Part Meronyms (dog)    : ", wn.synset('animal.n.01').part_meronyms()
 print "Substance Meronyms(dog): ", wn.synset('animal.n.01').substance_meronyms()
 print "Member Holonyms (dog)  : ", wn.synset('animal.n.01').member_holonyms()
 
-print "Entailments (walk)     : ", wn.synset
+print "Entailments (walk)     : ", wn.synset('walk.v.01').entailme
