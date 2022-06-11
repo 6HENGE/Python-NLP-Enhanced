@@ -20,4 +20,4 @@ print "Member Holonyms (dog)  : ", wn.synset('animal.n.01').member_holonyms()
 print "Entailments (walk)     : ", wn.synset('walk.v.01').entailments()
 print "Antonyms (walk)        : ", wn.lemma('walk.v.01.walk').antonyms()
 
-print "Min Depth (entit
+print "Min Depth (entity)     : ", wn.synset('entity.n.01')
