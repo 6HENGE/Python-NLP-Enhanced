@@ -21,4 +21,4 @@ print "Entailments (walk)     : ", wn.synset('walk.v.01').entailments()
 print "Antonyms (walk)        : ", wn.lemma('walk.v.01.walk').antonyms()
 
 print "Min Depth (entity)     : ", wn.synset('entity.n.01').min_depth()
-print "Min Depth (lo
+print "Min Depth (love)       : ", wn.synset('love.n.01')
