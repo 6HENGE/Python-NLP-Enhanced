@@ -22,4 +22,4 @@ print "Antonyms (walk)        : ", wn.lemma('walk.v.01.walk').antonyms()
 
 print "Min Depth (entity)     : ", wn.synset('entity.n.01').min_depth()
 print "Min Depth (love)       : ", wn.synset('love.n.01').min_depth()
-print "Min Depth
+print "Min Depth (dog)        : ", wn.synset('d
