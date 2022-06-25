@@ -80,3 +80,32 @@ def cleaning(text):
     stop_words += ['twenty', 'two', 'un', 'under', 'until', 'up', 'upon']
     stop_words += ['us', 'very', 'via', 'was', 'we', 'well', 'were', 'what']
     stop_words += ['whatever', 'when', 'whence', 'whenever', 'where']
+    stop_words += ['whereafter', 'whereas', 'whereby', 'wherein', 'whereupon']
+    stop_words += ['wherever', 'whether', 'which', 'while', 'whither', 'who']
+    stop_words += ['whoever', 'whole', 'whom', 'whose', 'why', 'will', 'with']
+    stop_words += ['within', 'without', 'would', 'yet', 'you', 'your']
+    stop_words += ['yours', 'yourself', 'yourselves']
+
+    words = [w for w in words if w not in stop_words]
+
+    # 5- Remove One-Length Characters, tek karakterli kelimeleri silelim.
+    words = [w for w in words if len(w) > 1]
+
+    # 6- Remove Digits, sayilari silelim.
+    words = [w for w in words if not w.isdigit()]
+
+    # Now, we have a list of cleaned words.
+    # Simdi, temizlenmis kelime listemiz var.
+    return words
+
+
+def cleaning_and_stemming(text, non_alpha=True, normalization=True, stemming=True, stopword=True):
+    """ CLEANING DATA , veri yi temizleyelim.
+        STEMMING WORDS , kelimelerden kelime kokune gitme islemine stem deniyor.
+    :param normalization: default True
+    :param non_alpha: default True
+    :param stopword: default True
+    :param stemming: default True
+    :param text: raw text
+    :return: cleaned and stemmed wordlist
+    """
