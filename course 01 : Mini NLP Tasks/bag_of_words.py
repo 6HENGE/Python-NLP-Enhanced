@@ -1,3 +1,5 @@
 """ @SerayBeser
 
-Natural Languag
+Natural Language Processing with Python
+
+Python ile Dogal Di
