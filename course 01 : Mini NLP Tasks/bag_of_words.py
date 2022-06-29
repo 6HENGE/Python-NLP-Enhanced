@@ -6,4 +6,4 @@ Python ile Dogal Dil Isleme
 
 **** Bag Of Words ****
 
-Bag of
+Bag of Words (BoW) is a model used in natural langua
