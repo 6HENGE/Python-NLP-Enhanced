@@ -10,4 +10,4 @@ Bag of Words (BoW) is a model used in natural language processing.
 One aim of BoW is to categorize documents.
 The idea is to analyse and classify different "bags of words" (corpus).
 And by matching the different categories, we identify which "bag" a certain block of text (test data) comes from.
-https:/
+https://ongspxm.github.io/blog/2014/12/ba
