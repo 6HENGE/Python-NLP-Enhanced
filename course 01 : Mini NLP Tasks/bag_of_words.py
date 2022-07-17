@@ -13,4 +13,7 @@ And by matching the different categories, we identify which "bag" a certain bloc
 https://ongspxm.github.io/blog/2014/12/bag-of-words-natural-language-processing/
 
 Building a "Bag of Words" involves 3 steps:
-Kelime Cantasi olusturma 3 asamali
+Kelime Cantasi olusturma 3 asamalidir:
+
+--tokenizing
+--counting
