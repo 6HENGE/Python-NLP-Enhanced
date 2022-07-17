@@ -17,3 +17,6 @@ Kelime Cantasi olusturma 3 asamalidir:
 
 --tokenizing
 --counting
+--normalizing
+
+Kelime Cantasi- (Bag o
