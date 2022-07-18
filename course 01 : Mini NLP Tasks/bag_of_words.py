@@ -19,4 +19,4 @@ Kelime Cantasi olusturma 3 asamalidir:
 --counting
 --normalizing
 
-Kelime Cantasi- (Bag o
+Kelime Cantasi- (Bag of Words) (BoW), dogal dil is
