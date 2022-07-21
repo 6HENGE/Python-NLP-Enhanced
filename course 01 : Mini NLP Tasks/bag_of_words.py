@@ -19,4 +19,5 @@ Kelime Cantasi olusturma 3 asamalidir:
 --counting
 --normalizing
 
-Kelime Cantasi- (Bag of Words) (BoW), dogal dil islemesinde kullanilan bir modeldir
+Kelime Cantasi- (Bag of Words) (BoW), dogal dil islemesinde kullanilan bir modeldir.
+BoW'un bir amaci, belgeleri kategorize et
