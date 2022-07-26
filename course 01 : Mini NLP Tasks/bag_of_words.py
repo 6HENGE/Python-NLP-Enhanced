@@ -20,4 +20,5 @@ Kelime Cantasi olusturma 3 asamalidir:
 --normalizing
 
 Kelime Cantasi- (Bag of Words) (BoW), dogal dil islemesinde kullanilan bir modeldir.
-BoW'un bir amaci, belgeleri kategorize etmektir. Amac farkli "canta soz
+BoW'un bir amaci, belgeleri kategorize etmektir. Amac farkli "canta sozcukleri" 'ni (korpus)
+analiz etmek ve sinifland
