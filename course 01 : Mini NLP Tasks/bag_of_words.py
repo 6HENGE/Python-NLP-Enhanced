@@ -24,4 +24,4 @@ BoW'un bir amaci, belgeleri kategorize etmektir. Amac farkli "canta sozcukleri" 
 analiz etmek ve siniflandirmaktir. Farkli kategorilere eslestirerek,
 belirli bir metin blogunun (test verisi) "cantasini" tanimlamis oluyoruz.
 """
-from sklearn.feature_
+from sklearn.feature_extraction.text import CountVect
