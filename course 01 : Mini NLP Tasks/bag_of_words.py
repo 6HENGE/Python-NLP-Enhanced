@@ -25,4 +25,6 @@ analiz etmek ve siniflandirmaktir. Farkli kategorilere eslestirerek,
 belirli bir metin blogunun (test verisi) "cantasini" tanimlamis oluyoruz.
 """
 from sklearn.feature_extraction.text import CountVectorizer
-from preprocessing import cleaning_
+from preprocessing import cleaning_and_stemming
+import collections
+imp
