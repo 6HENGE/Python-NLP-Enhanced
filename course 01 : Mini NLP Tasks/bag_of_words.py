@@ -33,4 +33,5 @@ import numpy as np
 def bag_of_words_with_scikit_learn(texts):
     """
 
-    :param texts: list 
+    :param texts: list of sentences
+    :return: bag of words 
