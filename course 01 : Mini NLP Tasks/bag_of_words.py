@@ -27,4 +27,7 @@ belirli bir metin blogunun (test verisi) "cantasini" tanimlamis oluyoruz.
 from sklearn.feature_extraction.text import CountVectorizer
 from preprocessing import cleaning_and_stemming
 import collections
-imp
+import numpy as np
+
+
+def bag_of
