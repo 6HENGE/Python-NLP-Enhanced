@@ -30,4 +30,4 @@ import collections
 import numpy as np
 
 
-def bag_of
+def bag_of_words_with_scikit_learn(texts):
