@@ -37,4 +37,4 @@ def bag_of_words_with_scikit_learn(texts):
     :return: bag of words (type: numpy ndarray)
     """
     vectorizer = CountVectorizer()
- 
+    X = vectorizer.fit_transform(te
