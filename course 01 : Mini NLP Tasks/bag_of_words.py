@@ -41,4 +41,5 @@ def bag_of_words_with_scikit_learn(texts):
     return X.toarray()
 
 
-def ba
+def bag_of_words(texts, mode='count'):
+    """
