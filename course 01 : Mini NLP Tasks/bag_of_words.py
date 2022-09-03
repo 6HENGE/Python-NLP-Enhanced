@@ -44,4 +44,4 @@ def bag_of_words_with_scikit_learn(texts):
 def bag_of_words(texts, mode='count'):
     """
 
-    :param mode:  one of 'bin
+    :param mode:  one of 'binary', 'count', 'freq', default :
