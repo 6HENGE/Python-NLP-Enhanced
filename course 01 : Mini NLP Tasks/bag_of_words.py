@@ -45,4 +45,5 @@ def bag_of_words(texts, mode='count'):
     """
 
     :param mode:  one of 'binary', 'count', 'freq', default : 'count'
-    :param texts: list of
+    :param texts: list of sentences
+    :return: bag of words 
