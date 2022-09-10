@@ -48,4 +48,4 @@ def bag_of_words(texts, mode='count'):
     :param texts: list of sentences
     :return: bag of words (type: numpy ndarray)
     """
-    corpus = cleaning_and_stemmi
+    corpus = cleaning_and_stemming(str(' '.join(texts)).lower(), stemmi
