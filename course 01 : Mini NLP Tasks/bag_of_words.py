@@ -50,4 +50,5 @@ def bag_of_words(texts, mode='count'):
     """
     corpus = cleaning_and_stemming(str(' '.join(texts)).lower(), stemming=False, stopword=False)
     labels = sorted(set(corpus))
-    indexes 
+    indexes = range(0, len(labels))
+    vocabulary = coll
