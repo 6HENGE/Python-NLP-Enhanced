@@ -49,4 +49,5 @@ def bag_of_words(texts, mode='count'):
     :return: bag of words (type: numpy ndarray)
     """
     corpus = cleaning_and_stemming(str(' '.join(texts)).lower(), stemming=False, stopword=False)
-    labels = sor
+    labels = sorted(set(corpus))
+    indexes 
