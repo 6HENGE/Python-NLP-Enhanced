@@ -51,4 +51,6 @@ def bag_of_words(texts, mode='count'):
     corpus = cleaning_and_stemming(str(' '.join(texts)).lower(), stemming=False, stopword=False)
     labels = sorted(set(corpus))
     indexes = range(0, len(labels))
-    vocabulary = collections.OrderedDict(sorted(dict(zip(labe
+    vocabulary = collections.OrderedDict(sorted(dict(zip(labels, indexes)).items()))
+
+  
