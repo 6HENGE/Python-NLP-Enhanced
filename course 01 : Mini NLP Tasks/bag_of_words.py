@@ -53,4 +53,5 @@ def bag_of_words(texts, mode='count'):
     indexes = range(0, len(labels))
     vocabulary = collections.OrderedDict(sorted(dict(zip(labels, indexes)).items()))
 
-  
+    bows = list()
+    count = 0
