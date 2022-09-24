@@ -55,3 +55,6 @@ def bag_of_words(texts, mode='count'):
 
     bows = list()
     count = 0
+
+    for text in texts:
+      
