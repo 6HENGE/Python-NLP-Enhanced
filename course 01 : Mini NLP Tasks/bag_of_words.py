@@ -57,4 +57,5 @@ def bag_of_words(texts, mode='count'):
     count = 0
 
     for text in texts:
-      
+        bow = list()
+        text = cleaning_an
