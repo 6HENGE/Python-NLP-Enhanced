@@ -60,4 +60,6 @@ def bag_of_words(texts, mode='count'):
         bow = list()
         text = cleaning_and_stemming(text.lower(), stemming=False, stopword=False)
         for v in vocabulary:
-            if str(mode) == 'c
+            if str(mode) == 'count':
+                for t in text:
+    
