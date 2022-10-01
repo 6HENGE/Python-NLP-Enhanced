@@ -62,4 +62,5 @@ def bag_of_words(texts, mode='count'):
         for v in vocabulary:
             if str(mode) == 'count':
                 for t in text:
-    
+                    if str(t) == str(v):
+  
