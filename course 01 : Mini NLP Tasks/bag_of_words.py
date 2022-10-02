@@ -63,4 +63,4 @@ def bag_of_words(texts, mode='count'):
             if str(mode) == 'count':
                 for t in text:
                     if str(t) == str(v):
-  
+                        count += 
