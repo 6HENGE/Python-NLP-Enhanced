@@ -67,4 +67,6 @@ def bag_of_words(texts, mode='count'):
                 bow.append(count)
                 count = 0
             if str(mode) == 'binary':
-                if str(v) in text
+                if str(v) in text:
+                    bow.append(1)
+  
