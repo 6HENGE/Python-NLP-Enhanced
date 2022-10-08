@@ -70,4 +70,5 @@ def bag_of_words(texts, mode='count'):
                 if str(v) in text:
                     bow.append(1)
                 else:
-                   
+                    bow.append(0)
+            if st
