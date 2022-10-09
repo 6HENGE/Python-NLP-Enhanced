@@ -73,4 +73,5 @@ def bag_of_words(texts, mode='count'):
                     bow.append(0)
             if str(mode) == 'freq':
                 for t in text:
-                    if str(t)
+                    if str(t) == str(v):
+                        c
