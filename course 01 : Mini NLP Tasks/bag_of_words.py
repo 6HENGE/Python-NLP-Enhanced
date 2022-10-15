@@ -79,3 +79,7 @@ def bag_of_words(texts, mode='count'):
                 count = 0
         bows.append(bow)
 
+    return np.asanyarray(bows)
+
+
+def 
