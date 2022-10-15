@@ -75,4 +75,5 @@ def bag_of_words(texts, mode='count'):
                 for t in text:
                     if str(t) == str(v):
                         count += 1
-                bow.append(cou
+                bow.append(count / float(len(text)))
+              
