@@ -82,4 +82,5 @@ def bag_of_words(texts, mode='count'):
     return np.asanyarray(bows)
 
 
-def 
+def demo():
+    text_1 = "John likes to watc
