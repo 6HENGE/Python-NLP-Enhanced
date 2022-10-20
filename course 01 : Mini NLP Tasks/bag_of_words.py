@@ -83,4 +83,4 @@ def bag_of_words(texts, mode='count'):
 
 
 def demo():
-    text_1 = "John likes to watc
+    text_1 = "John likes to watch movies. Mary likes movies too
