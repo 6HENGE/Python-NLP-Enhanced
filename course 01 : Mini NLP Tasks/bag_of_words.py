@@ -85,4 +85,5 @@ def bag_of_words(texts, mode='count'):
 def demo():
     text_1 = "John likes to watch movies. Mary likes movies too."
     text_2 = "John also likes to watch football games."
-    text_3 = "The quick brown fox jumps
+    text_3 = "The quick brown fox jumps over the lazy dog."
+    text_4 = "Never
