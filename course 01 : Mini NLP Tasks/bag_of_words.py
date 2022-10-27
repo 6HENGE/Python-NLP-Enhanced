@@ -87,4 +87,4 @@ def demo():
     text_2 = "John also likes to watch football games."
     text_3 = "The quick brown fox jumps over the lazy dog."
     text_4 = "Never jump over the lazy dog quickly."
-    print "Manual Bag Of
+    print "Manual Bag Of Words :\n", bag_of_words([text_1, text_2, text
