@@ -89,3 +89,7 @@ def demo():
     text_4 = "Never jump over the lazy dog quickly."
     print "Manual Bag Of Words :\n", bag_of_words([text_1, text_2, text_3, text_4], mode='count')
     print "\nScikit-Learn Bag Of Words :\n", bag_of_words_with_scikit_learn([text_1, text_2, text_3, text_4])
+
+
+if __name__ == '__main__':
+    #
