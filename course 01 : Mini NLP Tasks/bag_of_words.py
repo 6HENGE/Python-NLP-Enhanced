@@ -92,4 +92,5 @@ def demo():
 
 
 if __name__ == '__main__':
-    #
+    # bag_of_words(texts)
+    demo()
