@@ -37,3 +37,17 @@ def bag_of_words_with_keras(texts):
     t = Tokenizer()
     t.fit_on_texts(texts)
     bows = t.texts_to_matrix(texts, mode='count')
+    return bows
+
+
+def demo():
+    text_1 = "John likes to watch movies. Mary likes movies too."
+    text_2 = "John also likes to watch football games."
+    text_3 = "The quick brown fox jumps over the lazy dog."
+    text_4 = "Never jump over the lazy dog quickly."
+    print "Keras Bag Of Words :\n", bag_of_words_with_keras([text_1, text_2, text_3, text_4])
+
+
+if __name__ == '__main__':
+    # bag_of_words_with_keras(texts)
+    demo()
