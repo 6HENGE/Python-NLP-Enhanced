@@ -131,3 +131,16 @@ def cleaning_and_stemming(text, non_alpha=True, normalization=True, stemming=Tru
         porter = PorterStemmer()
         words = [porter.stem(word) for word in words]
     return words
+
+
+def demo():
+    """ LOAD DATA , veri setini yukleyelim.
+        """
+    # Sense and Sensibility by Jane Austen 1811
+    text = gutenberg.raw('austen-sense.txt')
+    print "Manual CLeaning : \n", cleaning(text)
+    print "\nNLTK: Cleaning & Stemming : \n", cleaning_and_stemming(text)
+
+
+if __name__ == '__main__':
+    demo()
