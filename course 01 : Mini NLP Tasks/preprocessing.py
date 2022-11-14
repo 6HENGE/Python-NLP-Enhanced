@@ -72,3 +72,31 @@ def cleaning(text):
     stop_words += ['some', 'somehow', 'someone', 'something', 'sometime']
     stop_words += ['sometimes', 'somewhere', 'still', 'such', 'system', 'take']
     stop_words += ['ten', 'than', 'that', 'the', 'their', 'them', 'themselves']
+    stop_words += ['then', 'thence', 'there', 'thereafter', 'thereby']
+    stop_words += ['therefore', 'therein', 'thereupon', 'these', 'they']
+    stop_words += ['thick', 'thin', 'third', 'this', 'those', 'though', 'three']
+    stop_words += ['three', 'through', 'throughout', 'thru', 'thus', 'to']
+    stop_words += ['together', 'too', 'top', 'toward', 'towards', 'twelve']
+    stop_words += ['twenty', 'two', 'un', 'under', 'until', 'up', 'upon']
+    stop_words += ['us', 'very', 'via', 'was', 'we', 'well', 'were', 'what']
+    stop_words += ['whatever', 'when', 'whence', 'whenever', 'where']
+    stop_words += ['whereafter', 'whereas', 'whereby', 'wherein', 'whereupon']
+    stop_words += ['wherever', 'whether', 'which', 'while', 'whither', 'who']
+    stop_words += ['whoever', 'whole', 'whom', 'whose', 'why', 'will', 'with']
+    stop_words += ['within', 'without', 'would', 'yet', 'you', 'your']
+    stop_words += ['yours', 'yourself', 'yourselves']
+
+    words = [w for w in words if w not in stop_words]
+
+    # 5- Remove One-Length Characters, tek karakterli kelimeleri silelim.
+    words = [w for w in words if len(w) > 1]
+
+    # 6- Remove Digits, sayilari silelim.
+    words = [w for w in words if not w.isdigit()]
+
+    # Now, we have a list of cleaned words.
+    # Simdi, temizlenmis kelime listemiz var.
+    return words
+
+
+def cleaning_and_stemming(text, non_alpha=True, normalization=True, stemming=True, stopword=True):
