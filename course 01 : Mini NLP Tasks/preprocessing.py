@@ -100,3 +100,34 @@ def cleaning(text):
 
 
 def cleaning_and_stemming(text, non_alpha=True, normalization=True, stemming=True, stopword=True):
+    """ CLEANING DATA , veri yi temizleyelim.
+        STEMMING WORDS , kelimelerden kelime kokune gitme islemine stem deniyor.
+    :param normalization: default True
+    :param non_alpha: default True
+    :param stopword: default True
+    :param stemming: default True
+    :param text: raw text
+    :return: cleaned and stemmed wordlist
+    """
+    # 1- Select Only Words, sadece kelimeleri secelim.
+    words = word_tokenize(text)
+
+    # 2- Remove All Non-Alphanumeric Characters , alfabede olmayan tum karakterleri silelim.
+    if non_alpha:
+        words = [word for word in words if word.isalpha()]
+
+    # 3- Normalizing Case, buyuk kucuk harf normalizasyonunu yapalim.
+    if normalization:
+        words = [w.lower() for w in words]
+
+    # 4- Remove StopWords, stopwords leri kaldiralim.
+    if stopword:
+        stop_words = set(stopwords.words('english'))
+        words = [w for w in words if w not in stop_words]
+
+    # Now, we have a list of cleaned words.
+    # Simdi, temizlenmis kelime listemiz var.
+    if stemming:
+        porter = PorterStemmer()
+        words = [porter.stem(word) for word in words]
+    return words
