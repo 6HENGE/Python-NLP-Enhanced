@@ -1,3 +1,3 @@
 from textblob import TextBlob, Word
 
-text = TextBlob("J
+text = TextBlob("John likes to watch movies. Mary 
