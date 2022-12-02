@@ -7,4 +7,5 @@ print "Noun Phrases    : ", text.noun_phrases  # whic are 'NNP', 'NNI'
 print "Sentences       : ", text.sentences
 print "Words           : ", text.words
 for sentence in text.sentences:
- 
+    print sentence,
+    pr
