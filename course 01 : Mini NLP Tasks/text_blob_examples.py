@@ -5,4 +5,6 @@ text = TextBlob("John likes to watch movies. Mary likes movies too. These are am
 print "Tags            : ", text.tags  # nltk -> pos_tag
 print "Noun Phrases    : ", text.noun_phrases  # whic are 'NNP', 'NNI'
 print "Sentences       : ", text.sentences
-print "Words           : ", text.
+print "Words           : ", text.words
+for sentence in text.sentences:
+ 
