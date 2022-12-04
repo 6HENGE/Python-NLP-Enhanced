@@ -8,4 +8,4 @@ print "Sentences       : ", text.sentences
 print "Words           : ", text.words
 for sentence in text.sentences:
     print sentence,
-    pr
+    print "Sentiment :", sentence.s
