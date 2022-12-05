@@ -8,4 +8,6 @@ print "Sentences       : ", text.sentences
 print "Words           : ", text.words
 for sentence in text.sentences:
     print sentence,
-    print "Sentiment :", sentence.s
+    print "Sentiment :", sentence.sentiment
+
+print "dogs, lemmatize : ", 
