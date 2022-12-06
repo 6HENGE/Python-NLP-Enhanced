@@ -11,4 +11,4 @@ for sentence in text.sentences:
     print "Sentiment :", sentence.sentiment
 
 print "dogs, lemmatize : ", Word('dogs').lemmatize()
-print "Translat
+print "Translate to TR : ", text.translate(to='t
