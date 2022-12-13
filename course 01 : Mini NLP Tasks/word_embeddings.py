@@ -6,4 +6,4 @@ Python ile Dogal Dil isleme
 
 **** Word Embeddings (Word2Vec wit GenSim)  ****
 
-Word embedding is the col
+Word embedding is the collective name for a set of languag
