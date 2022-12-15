@@ -8,4 +8,4 @@ Python ile Dogal Dil isleme
 
 Word embedding is the collective name for a set of language modeling
 and feature learning techniques in natural language processing (NLP)
-where words or phrases
+where words or phrases from the vocabulary are mapped to
