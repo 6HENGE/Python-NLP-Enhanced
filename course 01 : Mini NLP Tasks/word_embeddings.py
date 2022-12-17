@@ -9,4 +9,5 @@ Python ile Dogal Dil isleme
 Word embedding is the collective name for a set of language modeling
 and feature learning techniques in natural language processing (NLP)
 where words or phrases from the vocabulary are mapped to vectors of
-real numbers. Conceptually it involves a mathematic
+real numbers. Conceptually it involves a mathematical embedding from
+a space with o
