@@ -12,4 +12,4 @@ where words or phrases from the vocabulary are mapped to vectors of
 real numbers. Conceptually it involves a mathematical embedding from
 a space with one dimension per word to a continuous vector space with
 much lower dimension.
-Methods to generat
+Methods to generate this mapping include neural
