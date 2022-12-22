@@ -13,4 +13,4 @@ real numbers. Conceptually it involves a mathematical embedding from
 a space with one dimension per word to a continuous vector space with
 much lower dimension.
 Methods to generate this mapping include neural networks, dimensionality
-reduction on
+reduction on the word co-occurrence matrix, pr
