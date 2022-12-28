@@ -15,4 +15,5 @@ much lower dimension.
 Methods to generate this mapping include neural networks, dimensionality
 reduction on the word co-occurrence matrix, probabilistic models, and
 explicit representation in terms of the context in which words appear.
-Word and phrase embeddings, when used as the underlying in
+Word and phrase embeddings, when used as the underlying input representation,
+have been shown to b
