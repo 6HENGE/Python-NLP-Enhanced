@@ -20,4 +20,6 @@ have been shown to boost the performance in NLP tasks such as syntactic
 parsing and sentiment analysis. https://en.wikipedia.org/wiki/Word2vec
 
 
-Word Embedding Algorit
+Word Embedding Algorithms
+1. Embedding Layer
+2. Word2Vec :
