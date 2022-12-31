@@ -17,4 +17,7 @@ reduction on the word co-occurrence matrix, probabilistic models, and
 explicit representation in terms of the context in which words appear.
 Word and phrase embeddings, when used as the underlying input representation,
 have been shown to boost the performance in NLP tasks such as syntactic
-parsing and sentiment analysis. https://en.wikipedia.org/w
+parsing and sentiment analysis. https://en.wikipedia.org/wiki/Word2vec
+
+
+Word Embedding Algorit
