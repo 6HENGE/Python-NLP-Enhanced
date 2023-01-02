@@ -23,4 +23,4 @@ parsing and sentiment analysis. https://en.wikipedia.org/wiki/Word2vec
 Word Embedding Algorithms
 1. Embedding Layer
 2. Word2Vec :  Word2vec is a group of related models that are used to produce word embeddings.
-               Word2Vec 
+               Word2Vec kelimeler arasindaki uzakligi vektor
