@@ -30,4 +30,5 @@ Word Embedding Algorithms
 
 
 """
-from gensim.mode
+from gensim.models import Word2Vec
+from sklearn.decompositio
