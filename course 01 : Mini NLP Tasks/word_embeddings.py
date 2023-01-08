@@ -26,4 +26,8 @@ Word Embedding Algorithms
                Word2Vec kelimeler arasindaki uzakligi vektorel olarak hesaplamayi saglar.
 --Continuous Bag-of-Words, or CBOW model.
 --Continuous Skip-Gram Model.
-3. GloV
+3. GloVe
+
+
+"""
+from gensim.mode
