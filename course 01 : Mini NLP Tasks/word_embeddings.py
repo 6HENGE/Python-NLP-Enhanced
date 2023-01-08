@@ -25,3 +25,5 @@ Word Embedding Algorithms
 2. Word2Vec :  Word2vec is a group of related models that are used to produce word embeddings.
                Word2Vec kelimeler arasindaki uzakligi vektorel olarak hesaplamayi saglar.
 --Continuous Bag-of-Words, or CBOW model.
+--Continuous Skip-Gram Model.
+3. GloV
