@@ -39,4 +39,4 @@ import matplotlib.pyplot as plt
 
 
 def word_2_vec_with_gensim(sentences):
-    sentences = [cl
+    sentences = [cleaning_and_stemming(sent, stemming=Fal
