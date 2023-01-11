@@ -34,4 +34,5 @@ from gensim.models import Word2Vec
 from sklearn.decomposition import PCA
 from nltk.corpus import gutenberg
 from nltk import sent_tokenize
-from preprocessing import cleaning_a
+from preprocessing import cleaning_and_stemming
+import matplotlib.pyp
