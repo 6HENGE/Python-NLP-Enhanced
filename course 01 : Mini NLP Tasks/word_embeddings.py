@@ -35,4 +35,7 @@ from sklearn.decomposition import PCA
 from nltk.corpus import gutenberg
 from nltk import sent_tokenize
 from preprocessing import cleaning_and_stemming
-import matplotlib.pyp
+import matplotlib.pyplot as plt
+
+
+def word_2_vec_with_gensim(
