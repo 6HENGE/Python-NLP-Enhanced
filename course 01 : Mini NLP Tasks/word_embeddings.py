@@ -38,4 +38,5 @@ from preprocessing import cleaning_and_stemming
 import matplotlib.pyplot as plt
 
 
-def word_2_vec_with_gensim(
+def word_2_vec_with_gensim(sentences):
+    sentences = [cl
