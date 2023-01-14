@@ -42,4 +42,5 @@ def word_2_vec_with_gensim(sentences):
     sentences = [cleaning_and_stemming(sent, stemming=False) for sent in sentences]
     model = Word2Vec(sentences, min_count=1)
     X = model[model.wv.vocab]
-    pca =
+    pca = PCA(n_components=2)
+    result = pc
