@@ -43,4 +43,5 @@ def word_2_vec_with_gensim(sentences):
     model = Word2Vec(sentences, min_count=1)
     X = model[model.wv.vocab]
     pca = PCA(n_components=2)
-    result = pc
+    result = pca.fit_transform(X)
+    plt.sc
