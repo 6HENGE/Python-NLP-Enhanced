@@ -46,4 +46,4 @@ def word_2_vec_with_gensim(sentences):
     result = pca.fit_transform(X)
     plt.scatter(result[:, 0], result[:, 1])
     words = list(model.wv.vocab)
-    
+    for i, word in enumerate(words)
