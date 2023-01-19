@@ -49,4 +49,4 @@ def word_2_vec_with_gensim(sentences):
     for i, word in enumerate(words):
         plt.annotate(word, xy=(result[i, 0], result[i, 1]))
     plt.show()
-    pri
+    print "Death, life similarity :", model
