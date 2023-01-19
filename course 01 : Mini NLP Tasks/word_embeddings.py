@@ -47,4 +47,6 @@ def word_2_vec_with_gensim(sentences):
     plt.scatter(result[:, 0], result[:, 1])
     words = list(model.wv.vocab)
     for i, word in enumerate(words):
-        plt.annotate(word, xy=(resul
+        plt.annotate(word, xy=(result[i, 0], result[i, 1]))
+    plt.show()
+    pri
