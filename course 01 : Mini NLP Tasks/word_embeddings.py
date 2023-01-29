@@ -50,4 +50,8 @@ def word_2_vec_with_gensim(sentences):
         plt.annotate(word, xy=(result[i, 0], result[i, 1]))
     plt.show()
     print "Death, life similarity :", model.wv.similarity('death', 'life')
-  
+    return model
+
+
+def demo():
+    """
