@@ -54,4 +54,6 @@ def word_2_vec_with_gensim(sentences):
 
 
 def demo():
-    """ LOAD DATA , veri setini yukle
+    """ LOAD DATA , veri setini yukleyelim.
+        """
+    # Sense and
