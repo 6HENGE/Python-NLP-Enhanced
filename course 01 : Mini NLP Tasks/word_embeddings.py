@@ -56,4 +56,5 @@ def word_2_vec_with_gensim(sentences):
 def demo():
     """ LOAD DATA , veri setini yukleyelim.
         """
-    # Sense and
+    # Sense and Sensibility by Jane Austen 1811
+    text 
