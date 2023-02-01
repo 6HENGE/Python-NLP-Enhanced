@@ -57,4 +57,4 @@ def demo():
     """ LOAD DATA , veri setini yukleyelim.
         """
     # Sense and Sensibility by Jane Austen 1811
-    text 
+    text = gutenberg.raw('austen-sense.txt')
