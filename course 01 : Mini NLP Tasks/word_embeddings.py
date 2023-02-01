@@ -59,4 +59,5 @@ def demo():
     # Sense and Sensibility by Jane Austen 1811
     text = gutenberg.raw('austen-sense.txt')
     sentences = sent_tokenize(text[:1000])
-    moda
+    modal = word_2_vec_with_gensim(sentences)
+   
