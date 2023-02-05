@@ -60,4 +60,7 @@ def demo():
     text = gutenberg.raw('austen-sense.txt')
     sentences = sent_tokenize(text[:1000])
     modal = word_2_vec_with_gensim(sentences)
-   
+    print "Modal : ", modal
+
+
+if __
