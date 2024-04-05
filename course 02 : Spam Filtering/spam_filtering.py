@@ -81,3 +81,41 @@ class Bag_of_Words:
                             count += 1
                     bow.append(count)
                     count = 0
+                if str(mode) == 'binary':
+                    if str(v) in text:
+                        bow.append(1)
+                    else:
+                        bow.append(0)
+                if str(mode) == 'freq':
+                    for t in text:
+                        if str(t) == str(v):
+                            count += 1
+                    bow.append(count / float(len(text)))
+                    count = 0
+            bows.append(bow)
+        print "DONE"
+        return np.asanyarray(bows)
+
+
+def load_dataset():
+    """ Load Enron 1 email dataset
+
+    :return: ham_name, ham_mail, spam_name, spam_mail
+    """
+    print "Loading Data ...",
+    ham_name = list()
+    ham_mail = list()
+    for f_path in iglob("input/enron1/ham" + '**/*'):
+        with open(f_path, 'r') as f:
+            ham_name.append(str(f_path).split('/')[-1])
+            ham_mail.append((' '.join(f.readlines())).decode('iso-8859-1').encode('utf-8'))
+
+    spam_name = list()
+    spam_mail = list()
+    for f_path in iglob("input/enron1/spam" + '**/*'):
+        with open(f_path, 'r') as f:
+            spam_name.append(str(f_path).split('/')[-1])
+            spam_mail.append((' '.join(f.readlines())).decode('iso-8859-1').encode('utf-8'))
+    print "DONE"
+    return ham_name, ham_mail, spam_name, spam_mail
+
