@@ -119,3 +119,37 @@ def load_dataset():
     print "DONE"
     return ham_name, ham_mail, spam_name, spam_mail
 
+
+def split(bows_ham, bows_spam):
+    """
+    default split ratio = 20 / 100
+    :param bows_ham:
+    :param bows_spam:
+    :return:  X_train, X_test, y_train, y_test
+    """
+    print "Splitting Data into Training (80%) and Test (20%) Sets ... ",
+    test_ham = bows_ham[:(len(bows_ham) * 20 / 100)]
+    Train_ham = bows_ham[(len(bows_ham) * 20 / 100):]
+    test_spam = bows_spam[:(len(bows_spam) * 20 / 100)]
+    Train_spam = bows_spam[(len(bows_spam) * 20 / 100):]
+
+    X_train = np.append(Train_spam, Train_ham, axis=0)
+    X_test = np.append(test_spam, test_ham, axis=0)
+    y_train = np.append(np.ones((len(Train_spam), 1)), np.zeros((len(Train_ham), 1)), axis=0)
+    y_test = np.append(np.ones((len(test_spam), 1)), np.zeros((len(test_ham), 1)), axis=0)
+    print "DONE"
+    return X_train, X_test, y_train, y_test
+
+
+def calculate(X_train, y_train, X_test):
+    """ Create, Train Models. Make predictions on test data.
+
+    :param X_train:
+    :param y_train:
+    :param X_test:
+    :return:  y_pred1, y_pred2
+    """
+    print "Creating Models ...",
+    model1 = MultinomialNB()
+    model2 = LinearSVC()
+    print "DONE"
