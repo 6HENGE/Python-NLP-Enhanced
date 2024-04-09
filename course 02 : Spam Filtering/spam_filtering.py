@@ -153,3 +153,27 @@ def calculate(X_train, y_train, X_test):
     model1 = MultinomialNB()
     model2 = LinearSVC()
     print "DONE"
+    print "Training Models ...",
+    model1.fit(X_train, y_train)
+    model2.fit(X_train, y_train)
+    print "DONE"
+    print "Making Predictions on Test Data ...",
+    y_pred1 = model1.predict(X_test)
+    y_pred2 = model2.predict(X_test)
+    print "DONE"
+    return y_pred1, y_pred2
+
+
+def result(y_test, y_pred1, y_pred2):
+    # 0 = ham, 1 = spam
+    """ Show Confusion Matrices based on predictions.
+
+    :param y_test:
+    :param y_pred1:
+    :param y_pred2:
+    """
+    print "Confusion Matrices ...\n"
+    print "MultinomialNB :"
+    print confusion_matrix(y_test, y_pred1, labels=[0, 1])
+    u"""[[725   9]
+     [ 18 282]]"""
