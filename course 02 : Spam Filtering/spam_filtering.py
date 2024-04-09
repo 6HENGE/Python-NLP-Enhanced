@@ -177,3 +177,37 @@ def result(y_test, y_pred1, y_pred2):
     print confusion_matrix(y_test, y_pred1, labels=[0, 1])
     u"""[[725   9]
      [ 18 282]]"""
+    print "\nLinearSVC :"
+    print confusion_matrix(y_test, y_pred2, labels=[0, 1])
+    u"""[[713  21]
+     [  9 291]]"""
+
+
+def run():
+    ham_name, ham_mail, spam_name, spam_mail = load_dataset()
+
+    # My Way : But it is very slow (200 mail)
+    # ############################################################
+    # b = Bag_of_Words()
+    # b.create_vocabulary(ham_mail[:100] + spam_mail[:100])
+    # bows_ham = b.bag_of_words(ham_mail[:100], mode='count')
+    # bows_spam = b.bag_of_words(spam_mail[:100], mode='count')
+    # ############################################################
+
+    # With Keras : its really good :D (all mail)
+    # ############################################################
+
+    t = Tokenizer()
+    t.fit_on_texts(ham_mail + spam_mail)
+    bows_ham = t.texts_to_matrix(ham_mail, mode='count')
+    bows_spam = t.texts_to_matrix(spam_mail, mode='count')
+    # ############################################################
+
+    X_train, X_test, y_train, y_test = split(bows_ham, bows_spam)
+    y_pred1, y_pred2 = calculate(X_train, y_train, X_test)
+
+    result(y_test, y_pred1, y_pred2)
+
+
+if __name__ == '__main__':
+    run()
