@@ -58,3 +58,11 @@ def demo():
     print "\nSentiment with TextBlob, Naive Bayes classifier"
     accuracy_, class_ = sentiment_with_naive_bayes(train, test, text="Hi, I watch an amazing film.")
     print accuracy_, class_
+
+    print "\nSentiment with Affin"
+    score = sentiment_affin(text="Hi, I watch an amazing film.")
+    print score
+
+
+if __name__ == '__main__':
+    demo()
