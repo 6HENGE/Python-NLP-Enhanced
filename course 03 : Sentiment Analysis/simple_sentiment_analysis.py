@@ -29,3 +29,32 @@ def sentiment_with_naive_bayes(train, test, text):
 
 
 def sentiment_affin(text):
+    afinn = Afinn()
+    score = afinn.score(text)
+    return score
+
+
+def demo():
+    train = [('I love this car', 'positive'),
+             ('This view is amazing', 'positive'),
+             ('I feel great this morning', 'positive'),
+             ('I do not like this car', 'negative'),
+             ('This view is horrible', 'negative'),
+             ('I feel tired this morning', 'negative')
+
+             ]
+
+    test = [
+        ('I am so excited about the concert', 'positive'),
+        ('He is my best friend', 'positive'),
+        ('I am not looking forward to the concert', 'negative'),
+        ('He is my enemy', 'negative')
+    ]
+
+    print "Sentiment with TextBlob"
+    sentiments = sentiment_with_TextBlob(text=TextBlob("Hi, I watch an amazing film."))
+    print sentiments
+
+    print "\nSentiment with TextBlob, Naive Bayes classifier"
+    accuracy_, class_ = sentiment_with_naive_bayes(train, test, text="Hi, I watch an amazing film.")
+    print accuracy_, class_
