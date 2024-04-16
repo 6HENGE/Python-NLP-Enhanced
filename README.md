@@ -10,4 +10,6 @@ course 01 : Mini NLP Tasks
 
 __Cleaning__
 
-1- Select 
+1- Select Only Words, sadece kelimeleri secmek.
+
+2- Remove
