@@ -12,4 +12,4 @@ __Cleaning__
 
 1- Select Only Words, sadece kelimeleri secmek.
 
-2- Remove
+2- Remove Punctuation, noktalama isar
