@@ -12,4 +12,6 @@ __Cleaning__
 
 1- Select Only Words, sadece kelimeleri secmek.
 
-2- Remove Punctuation, noktalama isar
+2- Remove Punctuation, noktalama isaretlerini silmek.
+
+3- Normal
