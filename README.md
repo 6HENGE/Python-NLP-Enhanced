@@ -14,4 +14,4 @@ __Cleaning__
 
 2- Remove Punctuation, noktalama isaretlerini silmek.
 
-3- Normal
+3- Normalizing Case, buyuk kucuk h
