@@ -16,4 +16,4 @@ __Cleaning__
 
 3- Normalizing Case, buyuk kucuk harf normalizasyonunu yapmak.
 
-4
+4- Remove StopWords, stopwords 
