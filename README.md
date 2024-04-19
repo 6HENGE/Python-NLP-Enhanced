@@ -18,4 +18,4 @@ __Cleaning__
 
 4- Remove StopWords, stopwords leri kaldirmak.
 
-5- Remove One-Length
+5- Remove One-Length Characters, tek karakterli k
