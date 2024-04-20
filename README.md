@@ -22,4 +22,7 @@ __Cleaning__
 
 6- Remove Digits, sayilari silmek.
 
-+ Stemming, (kelimenin kokun
++ Stemming, (kelimenin kokune gitme islemi)
+
+
+[bag of words](http
