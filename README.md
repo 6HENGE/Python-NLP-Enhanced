@@ -25,4 +25,4 @@ __Cleaning__
 + Stemming, (kelimenin kokune gitme islemi)
 
 
-[bag of words](http
+[bag of words](https://github.com/6HENGE/Python-N
