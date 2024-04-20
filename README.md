@@ -20,4 +20,6 @@ __Cleaning__
 
 5- Remove One-Length Characters, tek karakterli kelimeleri silmek.
 
-6- Remove Digi
+6- Remove Digits, sayilari silmek.
+
++ Stemming, (kelimenin kokun
