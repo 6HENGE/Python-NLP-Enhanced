@@ -33,4 +33,6 @@ __Cleaning__
 
 __Bag of Words -  Kelime Cantasi__
 
-Bag of Words (BoW) is a model used in natural language pro
+Bag of Words (BoW) is a model used in natural language processing.
+
+One aim of BoW is
