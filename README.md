@@ -31,4 +31,6 @@ __Cleaning__
 [bag of words with keras](https://github.com/6HENGE/Python-NLP-Enhanced/blob/master/course%2001%20:%20Mini%20NLP%20Tasks/bag_of_words_keras.py)
 
 
-__Bag of Words -  K
+__Bag of Words -  Kelime Cantasi__
+
+Bag of Words (BoW
