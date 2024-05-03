@@ -33,4 +33,4 @@ __Cleaning__
 
 __Bag of Words -  Kelime Cantasi__
 
-Bag of Words (BoW
+Bag of Words (BoW) is a model used in natural language pro
