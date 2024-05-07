@@ -39,4 +39,4 @@ One aim of BoW is to categorize documents.
 
 The idea is to analyse and classify different "bags of words" (corpus).
 
-And by mat
+And by matching the different categories, we identif
