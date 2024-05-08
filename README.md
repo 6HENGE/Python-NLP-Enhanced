@@ -39,4 +39,6 @@ One aim of BoW is to categorize documents.
 
 The idea is to analyse and classify different "bags of words" (corpus).
 
-And by matching the different categories, we identify which "bag" a certain block of text 
+And by matching the different categories, we identify which "bag" a certain block of text (test data) comes from.
+
+https:/
