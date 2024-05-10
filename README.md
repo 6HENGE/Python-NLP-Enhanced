@@ -46,4 +46,11 @@ https://ongspxm.github.io/blog/2014/12/bag-of-words-natural-language-processing/
 
 Building a "Bag of Words" involves 3 steps:
 
-Kelime Cantasi olusturma 3 asam
+Kelime Cantasi olusturma 3 asamalidir:
+
+
+--tokenizing
+
+--counting
+
+--nor
