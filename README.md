@@ -56,4 +56,6 @@ Kelime Cantasi olusturma 3 asamalidir:
 --normalizing
 
 
-Kelime Cantasi- (Bag of Words) (BoW), dogal dil
+Kelime Cantasi- (Bag of Words) (BoW), dogal dil islemesinde kullanilan bir modeldir.
+
+BoW
