@@ -58,4 +58,4 @@ Kelime Cantasi olusturma 3 asamalidir:
 
 Kelime Cantasi- (Bag of Words) (BoW), dogal dil islemesinde kullanilan bir modeldir.
 
-BoW
+BoW'un bir amaci, belgeleri kat
