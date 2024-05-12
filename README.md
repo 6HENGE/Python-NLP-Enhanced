@@ -53,4 +53,7 @@ Kelime Cantasi olusturma 3 asamalidir:
 
 --counting
 
---nor
+--normalizing
+
+
+Kelime Cantasi- (Ba
