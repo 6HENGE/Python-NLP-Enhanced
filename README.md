@@ -56,4 +56,4 @@ Kelime Cantasi olusturma 3 asamalidir:
 --normalizing
 
 
-Kelime Cantasi- (Ba
+Kelime Cantasi- (Bag of Words) (BoW), dogal dil
