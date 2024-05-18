@@ -62,4 +62,4 @@ BoW'un bir amaci, belgeleri kategorize etmektir. Amac farkli "canta sozcukleri" 
 
 analiz etmek ve siniflandirmaktir. Farkli kategorilere eslestirerek,
 
-belir
+belirli bir metin blogunun (test verisi) "can
