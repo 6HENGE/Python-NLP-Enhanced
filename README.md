@@ -62,4 +62,7 @@ BoW'un bir amaci, belgeleri kategorize etmektir. Amac farkli "canta sozcukleri" 
 
 analiz etmek ve siniflandirmaktir. Farkli kategorilere eslestirerek,
 
-belirli bir metin blogunun (test verisi) "can
+belirli bir metin blogunun (test verisi) "cantasini" tanimlamis oluyoruz.
+
+
+__Python E
