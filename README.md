@@ -65,4 +65,4 @@ analiz etmek ve siniflandirmaktir. Farkli kategorilere eslestirerek,
 belirli bir metin blogunun (test verisi) "cantasini" tanimlamis oluyoruz.
 
 
-__Python Enhanced Natural Language Proces
+__Python Enhanced Natural Language Processing__ --> http://www.nltk.org/boo
