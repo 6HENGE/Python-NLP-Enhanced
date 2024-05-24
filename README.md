@@ -65,4 +65,7 @@ analiz etmek ve siniflandirmaktir. Farkli kategorilere eslestirerek,
 belirli bir metin blogunun (test verisi) "cantasini" tanimlamis oluyoruz.
 
 
-__Python Enhanced Natural Language Processing__ --> http://www.nltk.org/boo
+__Python Enhanced Natural Language Processing__ --> http://www.nltk.org/book/
+
+
+ch 01 : Language Processing and 
