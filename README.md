@@ -68,4 +68,6 @@ belirli bir metin blogunun (test verisi) "cantasini" tanimlamis oluyoruz.
 __Python Enhanced Natural Language Processing__ --> http://www.nltk.org/book/
 
 
-ch 01 : Language Processing and 
+ch 01 : Language Processing and Python
+
+ch 02 : Accessing Te
