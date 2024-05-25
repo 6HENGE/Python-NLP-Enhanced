@@ -74,4 +74,6 @@ ch 02 : Accessing Text Corpora and Lexical Resources
 
 ch 03 : Processing Raw Text
 
-ch 0
+ch 04 : Writing Structured Programs
+
+ch 05 : Catego
