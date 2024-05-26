@@ -76,4 +76,4 @@ ch 03 : Processing Raw Text
 
 ch 04 : Writing Structured Programs
 
-ch 05 : Catego
+ch 05 : Categorizing and Tagging Words
